@@ -3,6 +3,6 @@ resource "aws_instance" "firstdemo" {
     instance_type = "t2.micro"
 
     tags {
-      Name = "demoinstance"
+      Name = "instance4DevOps"
     }
 }
